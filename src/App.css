@@ -1,0 +1,62 @@
+.body
+{
+  background-color: blue;
+}
+#root {
+  margin: 0 0 0 0;
+  padding: 0rem;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.heading {
+  font-family: Poppins;
+}
+
+.grid-main {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.grid-child {
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #000000;
+}
+
+.grid-child:hover {
+  background-color: whitesmoke;
+  color: #212121;
+}
+
+.grid-child h3 {
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.grid-child p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.action-btn {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  box-shadow:5px 5px #000000;
+}
+
+.result-text {
+  font-family: Poppins;
+  font-size: 25px;
+  line-height: 2.5rem;
+  color: black;
+}
